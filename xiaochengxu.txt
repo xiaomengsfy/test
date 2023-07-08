@@ -50,6 +50,15 @@
 #以上部分为于频道 https://t.me/Aa28413761 中搜集的由用户“是豆豆呀”（id：5870132963）等分享的微信小程序净化重写
 
 
+[Script]
+#https://t.me/Aa28413761/510 EMS
+http-response ^https:\/\/ump\.ems\.com\.cn\/new-generation-extend\/redis\/pageInfoByChannel script-path=https://raw.githubusercontent.com/jizhi0520/QX/main/ems.js, requires-body=true, timeout=10, tag=EMS小程序
+#https://t.me/Aa28413761/459 小兔充充
+http-response ^https:\/\/mapi\.xiaotucc\.com\/(mall\/main|main_page\/index\/getActivity) script-path=https://raw.githubusercontent.com/jizhi0520/QX/main/xiaotucc.js, requires-body=true, timeout=10, tag=小兔充充小程序
+#https://t.me/Aa28413761/457 https://t.me/Aa28413761/485 滴滴
+http-response ^https:\/\/common\.diditaxi\.com\.cn\/common\/v5 script-path=https://raw.githubusercontent.com/jizhi0520/QX/main/didi.js, requires-body=true, timeout=10, tag=滴滴小程序
+
+
 [MITM]
 
 hostname = conf.diditaxi.com.cn,common.diditaxi.com.cn,ad.xiaotucc.com,mapi.xiaotucc.com,aag.enmonster.com,smarket.dian.so,file.dian.so,s.jiediankeji.com,wxs-weixin.sd.zhumanggroup.com,mobile-api.imlaidian.com,hdgateway.zto.com,customer-app.sto.cn,sto-customer-app.oss-cn-shanghai.aliyuncs.co,webchatapp.fcbox.com,dsp.fcbox.com,qapi.huolala.cn,appuser-static.huolala.cn,ump.ems.com.cn,applets.jtexpress.com.cn,miniprogram.ishansong.com,ads.ishansong.com,api.mcd.cn,orders.kfc.com.cn,dynamicad.kfc.com.cn,res.kfc.com.cn,res.pizzahut.com.cn,www.deppon.com
