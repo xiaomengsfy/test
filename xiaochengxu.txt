@@ -1,0 +1,55 @@
+[Rewrite]
+
+#https://t.me/Aa28413761/582 德邦
+^https:\/\/www\.deppon\.com\/gwapi\/memberService\/eco\/member\/grade\/commonInterface reject-dict
+#https://t.me/Aa28413761/528 必胜客
+^https:\/\/res\.pizzahut\.com\.cn\/CRM reject-dict
+#https://t.me/Aa28413761/526 肯德基
+^https:\/\/orders\.kfc\.com\.cn\/preorder-portal\/api\/v2\/coupon reject-dict
+^https:\/\/dynamicad\.kfc\.com\.cn\/api reject-dict
+^https:\/\/res\.kfc\.com\.cn\/CRM\/kfcad\/custom_v2\/wxapp reject-dict
+^https:\/\/orders\.kfc\.com\.cn\/preorder-portal\/api\/v2\/activity reject-dict
+#https://t.me/Aa28413761/525 麦当劳
+^https:\/\/api\.mcd\.cn\/bff\/portal\/home\/hotActivity reject-dict
+#https://t.me/Aa28413761/516 闪送
+^https:\/\/miniprogram\.ishansong\.com\/cms\/faq\/query reject-dict
+^https:\/\/ads\.ishansong\.com\/advert reject-dict
+#https://t.me/Aa28413761/513 极兔
+^https:\/\/applets\.jtexpress\.com\.cn reject-dict
+#https://t.me/Aa28413761/500 货拉拉
+^https:\/\/qapi\.huolala\.cn\/ads reject-dict
+^https:\/\/appuser-static\.huolala\.cn\/imgs reject-dict
+^https:\/\/qapi\.huolala\.cn\/home_new_user reject-dict
+^https:\/\/qapi\.huolala\.cn\/get_service_list reject-dict
+#https://t.me/Aa28413761/492 丰巢
+^https:\/\/webchatapp\.fcbox\.com\/fcboxactivityweb\/api\/v2\/clientPage reject-dict
+^https:\/\/dsp\.fcbox\.com reject-dict
+#https://t.me/Aa28413761/488 申通
+^https:\/\/customer-app\.sto\.cn\/api\/app\/banner\/banner reject-dict
+^https:\/\/sto-customer-app\.oss-cn-shanghai\.aliyuncs\.com\/images reject-dict
+#https://t.me/Aa28413761/479 中通快递
+^https:\/\/hdgateway\.zto\.com\/getApolloConfig reject-dict
+^https:\/\/hdgateway\.zto\.com\/track reject-dict
+^https:\/\/hdgateway\.zto\.com\/getAdInfo reject-dict
+^https:\/\/hdgateway\.zto\.com\/listJumperShow reject-dict
+#https://t.me/Aa28413761/471 来电
+^https:\/\/mobile-api\.imlaidian\.com\/api\/args reject-dict
+#https://t.me/Aa28413761/469 搜电充电
+^https:\/\/wxs-weixin\.sd\.zhumanggroup\.com\/api\/v2\/ad reject-dict
+#https://t.me/Aa28413761/466 街电
+^https:\/\/s\.jiediankeji\.com\/adv reject-dict
+#https://t.me/Aa28413761/464 小电充电
+^https:\/\/smarket\.dian\.so reject-dict
+^https:\/\/file\.dian\.so\/c\/leto reject-dict
+#https://t.me/Aa28413761/497?comment=157721 怪兽充电
+^https:\/\/aag\.enmonster\.com\/apa\/(index\/)?advert\/(skin|multi\/positions|demand\/home\/poster) reject
+#https://t.me/Aa28413761/459 小兔充充
+^https:\/\/ad\.xiaotucc\.com\/advert reject
+#https://t.me/Aa28413761/457 https://t.me/Aa28413761/485 滴滴
+^https:\/\/conf\.diditaxi\.com\.cn\/homepage\/v1\/core reject-dict
+#以上部分为于频道 https://t.me/Aa28413761 中搜集的由用户“是豆豆呀”（id：5870132963）等分享的微信小程序净化重写
+
+
+[MITM]
+
+hostname = conf.diditaxi.com.cn,common.diditaxi.com.cn,ad.xiaotucc.com,mapi.xiaotucc.com,aag.enmonster.com,smarket.dian.so,file.dian.so,s.jiediankeji.com,wxs-weixin.sd.zhumanggroup.com,mobile-api.imlaidian.com,hdgateway.zto.com,customer-app.sto.cn,sto-customer-app.oss-cn-shanghai.aliyuncs.co,webchatapp.fcbox.com,dsp.fcbox.com,qapi.huolala.cn,appuser-static.huolala.cn,ump.ems.com.cn,applets.jtexpress.com.cn,miniprogram.ishansong.com,ads.ishansong.com,api.mcd.cn,orders.kfc.com.cn,dynamicad.kfc.com.cn,res.kfc.com.cn,res.pizzahut.com.cn,www.deppon.com
