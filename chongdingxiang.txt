@@ -20,10 +20,10 @@
 ^https?:\/\/zh\.moegirl\.org\.cn\/zh\-hk 302 https://zh.moegirl.org.cn
 ^https?:\/\/zh\.moegirl\.org\.cn\/zh\-tw 302 https://zh.moegirl.org.cn
 #pixiv快速搜索
-^https?:\/\/www\.google\.com\/search\?q=pix\+([^&]+).+ 302 https://www.pixiv.net/tags/
-^https?:\/\/www\.google\.com\/search\?q=pu\+([^&]+).+ 302 https://www.pixiv.net/search_user.php?s_mode=s_usr&nick=
-^https?:\/\/www\.google\.com\/search\?q=pi\+([^&]+).+ 302 https://www.pixiv.net/artworks/
-^https?:\/\/www\.google\.com\/search\?q=pu\+([^&]+).+ 302 https://www.pixiv.net/users/
+^https?:\/\/www\.google\.com\/search\?q=pix\+([^&]+).+ 302 https://www.pixiv.net/tags/$1
+^https?:\/\/www\.google\.com\/search\?q=pu\+([^&]+).+ 302 https://www.pixiv.net/search_user.php?s_mode=s_usr&nick=$1
+^https?:\/\/www\.google\.com\/search\?q=pi\+([^&]+).+ 302 https://www.pixiv.net/artworks/$1
+^https?:\/\/www\.google\.com\/search\?q=pu\+([^&]+).+ 302 https://www.pixiv.net/users/$1
 #fanbox快速搜索
 ^https?:\/\/www\.google\.com\/search\?q=fb\+ 302 https://www.fanbox.cc/search?type=creator&q=
 #jmtt快速搜索
