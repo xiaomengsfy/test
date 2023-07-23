@@ -53,15 +53,15 @@
 # gh    xxx (GitHub)
 ^https?:\/\/www\.google\.com\/search\?q=gh\+([^&]+).+ 302 https://github.com/search?q=$1
 # zdm xxx (什么值得买)
-^https?:\/\/www\.google\.com\/search\?q=zdm\+([^&]+).+ 302 https://search.m.smzdm.com/?v=b&s=$1
+^https?:\/\/www\.google\.com\/search\?q=zdm\+([^&]+).+ 302 https://search.smzdm.com/?v=b&s=$1
 # jd  xxx (京东)
 ^https?:\/\/www\.google\.com\/search\?q=jd\+([^&]+).+ 302 https://so.m.jd.com/ware/search.action?keyword=$1
 # tb  xxx (淘宝)
-^https?:\/\/www\.google\.com\/search\?q=tb\+([^&]+).+ 302 https://s.m.taobao.com/h5?q=$1
+^https?:\/\/www\.google\.com\/search\?q=tb\+([^&]+).+ 302 https://s.taobao.com/h5?q=$1
 # yt  xxx (YouTube)
 ^https?:\/\/www\.google\.com\/search\?q=yt\+([^&]+).+ 302 https://www.youtube.com/results?search_query=$1
 # bli xxx (哔哩哔哩)
-^https?:\/\/www\.google\.com\/search\?q=bli\+([^&]+).+ 302 https://m.bilibili.com/search?keyword=$1
+^https?:\/\/www\.google\.com\/search\?q=bli\+([^&]+).+ 302 https://www.bilibili.com/search?keyword=$1
 # ac  xxx (Acfun)
 ^https?:\/\/www\.google\.com\/search\?q=ac\+([^&]+).+ 302 https://www.acfun.cn/search?keyword=$1
 # ys  xxx (茶杯狐cupfox)
