@@ -17,7 +17,7 @@
           
 [rewrite_local]
 
-^https?:\/\/app\.bilibili\.com\/x\/v\d\/feed\/index\? url script-request-header https://gist.githubusercontent.com/ddgksf2013/a04e64065d08f5871ccf1e79c06a8c04/raw/bilibili.feed.enhance.js
+^https?:\/\/app\.bilibili\.com\/x\/v\d\/feed\/index\? url script-request-header https://raw.githubusercontent.com/xiaomengsfy/test/main/xinxiliu.js
 
 [mitm]
  
