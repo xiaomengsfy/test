@@ -89,9 +89,6 @@
 # jp  (切换至日本区)
 ^https?:\/\/www\.google\.com\/search\?q=jp&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143462&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=jp&urlDesc= 302
 
-#使用谷歌搜索
-^https?:\/\/www\.google\.com\/search\?q=gg\+([^&]+).+ 302 https://www.google.com/search?q=$1
-
 #使用duckduckgo搜索
 ^https?:\/\/www\.google\.com\/search\?q=([^&]+).+ 302 https://duckduckgo.com/?q=$1
 
