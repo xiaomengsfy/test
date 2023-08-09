@@ -90,7 +90,7 @@
 ^https?:\/\/www\.google\.com\/search\?q=jp&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143462&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=jp&urlDesc= 302
 
 #使用duckduckgo搜索
-^https?:\/\/www\.google\.com\/search\?q=([^&]+).+ 302 https://duckduckgo.com/?q=$1
+^https?:\/\/www\.google\.com\/search\?q=\+([^&]+).+ 302 https://duckduckgo.com/?q=$1
 
 [Mitm]
 hostname = 18comic.vip,www.google.cn,www.g.cn,acg.tv,*.baidu.hk,zh.wikipedia.org,jm.tt,www.google.com,zh.moegirl.org.cn
