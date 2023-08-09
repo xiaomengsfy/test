@@ -19,6 +19,8 @@
 ^https?:\/\/www\.google\.com\/search\?q=im\+ 302 https://music.apple.com/cn/search?term=
 #thb wiki快速搜索
 ^https?:\/\/www\.google\.com\/search\?q=thb\+ 302 https://thwiki.cc/index.php?search=
+#使用duckduckgo搜索
+^https?:\/\/www\.google\.com\/search\?q=d\+([^&]+).+ 302 https://duckduckgo.com/?q=$1
 #萌娘百科繁中重定向简中
 ^https?:\/\/zh\.moegirl\.org\.cn\/zh\-hk 302 https://zh.moegirl.org.cn
 ^https?:\/\/zh\.moegirl\.org\.cn\/zh\-tw 302 https://zh.moegirl.org.cn
@@ -89,8 +91,6 @@
 # jp  (切换至日本区)
 ^https?:\/\/www\.google\.com\/search\?q=jp&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143462&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=jp&urlDesc= 302
 
-#使用duckduckgo搜索
-^https?:\/\/www\.google\.com\/search\?q=\+([^&]+).+ 302 https://duckduckgo.com/?q=$1
 
 [Mitm]
 hostname = 18comic.vip,www.google.cn,www.g.cn,acg.tv,*.baidu.hk,zh.wikipedia.org,jm.tt,www.google.com,zh.moegirl.org.cn
