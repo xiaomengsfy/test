@@ -1,3 +1,3 @@
-let obj = JSON.parse($response.body);
-obj.info.moduleJson = JSON.stringify(JSON.parse(obj.info.moduleJson).filter(item => !item.moduleName.includes("广告")));
+let obj=JSON.parse($response.body);
+obj.data.sections = obj.data.sections.filter(item => ["center_v2", "head_v2", "core_function"].includes(item.sectionId));
 $done({body: JSON.stringify(obj)});
