@@ -52,7 +52,7 @@
 
 [Script]
 #https://t.me/Aa28413761/510 EMS
-http-response ^https:\/\/ump\.ems\.com\.cn\/new-generation-extend\/redis\/pageInfoByChannel script-path=https://raw.githubusercontent.com/jizhi0520/QX/main/ems.js, requires-body=true, timeout=10, tag=EMS小程序
+http-response ^https:\/\/ump\.ems\.com\.cn\/new-generation-extend\/redis\/pageInfoByChannel script-path=https://raw.githubusercontent.com/xiaomengsfy/test/main/ems.js, requires-body=true, timeout=10, tag=EMS小程序
 #https://t.me/Aa28413761/459 小兔充充
 http-response ^https:\/\/mapi\.xiaotucc\.com\/(mall\/main|main_page\/index\/getActivity) script-path=https://raw.githubusercontent.com/xiaomengsfy/test/main/xiaotu.js, requires-body=true, timeout=10, tag=小兔充充小程序
 #https://t.me/Aa28413761/457 https://t.me/Aa28413761/485 滴滴
