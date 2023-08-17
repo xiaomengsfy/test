@@ -1,0 +1,5 @@
+[Sript]
+http-request ^https:\/\/www\.bing\.com\/(search|new) script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-header.js, timeout=60, tag=replaceHeader_1, argument="(%5Cr%5CnUser-Agent%3A.%2B%3F)%5Cw%2B%5C%2F%5B%5Cd%5C.%5D%2B(%5Cr%5Cn)->%241AppleWebKit%2F537.36%20Chrome%2F110.0%20Safari%2F537.36%20Edg%2F110.0%242"
+
+[Mitm]
+hostname = www.bing.com
