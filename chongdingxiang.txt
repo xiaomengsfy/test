@@ -98,17 +98,17 @@
 ^https?:\/\/www\.google\.com\/search\?q=jp&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143462&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=jp&urlDesc= 302
 
 #safari快速访问部分网站
-^https?:\/\/duckduckgo.com/?q=mnbk&.+ 302 https://zh.moegirl.org.cn
+^https?:\/\/duckduckgo.com\/\?q=mnbk&.+ 302 https://zh.moegirl.org.cn
 
-^https?:\/\/duckduckgo.com/?q=pixiv&.+ 302 https://www.pixiv.net
+^https?:\/\/duckduckgo.com\/\?q=pixiv&.+ 302 https://www.pixiv.net
 
-^https?:\/\/duckduckgo.com/?q=twitter&.+ 302 https://twitter.com
+^https?:\/\/duckduckgo.com\/\?q=twitter&.+ 302 https://twitter.com
 
-^https?:\/\/duckduckgo.com/?q=github&.+ 302 https://github.com
+^https?:\/\/duckduckgo.com\/\?q=github&.+ 302 https://github.com
 
-^https?:\/\/duckduckgo.com/?q=ytb&.+ 302 https://www.youtube.com
+^https?:\/\/duckduckgo.com\/\?q=ytb&.+ 302 https://www.youtube.com
 
-^https?:\/\/duckduckgo.com/?q=bili&.+ 302 https://www.bilibili.com
+^https?:\/\/duckduckgo.com\/\?q=bili&.+ 302 https://www.bilibili.com
 
 [Mitm]
 hostname = 18comic.vip,www.google.cn,www.g.cn,acg.tv,*.baidu.hk,zh.wikipedia.org,jm.tt,www.google.com,zh.moegirl.org.cn,duckduckgo.com
