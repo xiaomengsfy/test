@@ -15,6 +15,7 @@
 ^https?:\/\/zh\.wikipedia\.org\/zh\-hk 302 https://zh.wikipedia.org/wiki
 #萌娘百科快速搜索
 ^https?:\/\/www\.google\.com\/search\?q=mn\+ 302 https://zh.moegirl.org.cn/index.php?search=
+^https?:\/\/www\.google\.com\/search\?q=mnbk 302 https://zh.moegirl.org.cn
 #在apple music搜索
 ^https?:\/\/www\.google\.com\/search\?q=im\+ 302 https://music.apple.com/cn/search?term=
 #thb wiki快速搜索
@@ -25,6 +26,7 @@
 ^https?:\/\/zh\.moegirl\.org\.cn\/zh\-hk 302 https://zh.moegirl.org.cn
 ^https?:\/\/zh\.moegirl\.org\.cn\/zh\-tw 302 https://zh.moegirl.org.cn
 #pixiv快速搜索
+^https?:\/\/www\.google\.com\/search\?q=pixiv 302 https://www.pixiv.net
 ^https?:\/\/www\.google\.com\/search\?q=pix\+([^&]+).+ 302 https://www.pixiv.net/tags/$1
 ^https?:\/\/www\.google\.com\/search\?q=pu\+([^&]+).+ 302 https://www.pixiv.net/search_user.php?s_mode=s_usr&nick=$1
 ^https?:\/\/www\.google\.com\/search\?q=pi\+([^&]+).+ 302 https://www.pixiv.net/artworks/$1
@@ -52,8 +54,10 @@
 ^https?:\/\/www\.google\.com\/search\?q=wx\+([^&]+).+ 302 https://weixin.sogou.com/weixinwap?query=$1
 # tw    xxx (Twitter)
 ^https?:\/\/www\.google\.com\/search\?q=tw\+([^&]+).+ 302 https://twitter.com/search?q=$1
+^https?:\/\/www\.google\.com\/search\?q=twitter 302 https://twitter.com
 # gh    xxx (GitHub)
 ^https?:\/\/www\.google\.com\/search\?q=gh\+([^&]+).+ 302 https://github.com/search?q=$1
+^https?:\/\/www\.google\.com\/search\?q=github 302 https://github.com
 # zdm xxx (什么值得买)
 ^https?:\/\/www\.google\.com\/search\?q=zdm\+([^&]+).+ 302 https://search.smzdm.com/?v=b&s=$1
 # jd  xxx (京东)
@@ -62,8 +66,10 @@
 ^https?:\/\/www\.google\.com\/search\?q=tb\+([^&]+).+ 302 https://s.taobao.com/h5?q=$1
 # yt  xxx (YouTube)
 ^https?:\/\/www\.google\.com\/search\?q=yt\+([^&]+).+ 302 https://www.youtube.com/results?search_query=$1
+^https?:\/\/www\.google\.com\/search\?q=ytb 302 https://www.youtube.com
 # bli xxx (哔哩哔哩)
 ^https?:\/\/www\.google\.com\/search\?q=bli\+([^&]+).+ 302 https://www.bilibili.com/search?keyword=$1
+^https?:\/\/www\.google\.com\/search\?q=bili 302 https://www.bilibili.com
 # ac  xxx (Acfun)
 ^https?:\/\/www\.google\.com\/search\?q=ac\+([^&]+).+ 302 https://www.acfun.cn/search?keyword=$1
 # ys  xxx (茶杯狐cupfox)
