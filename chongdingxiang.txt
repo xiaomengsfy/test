@@ -15,7 +15,7 @@
 ^https?:\/\/zh\.wikipedia\.org\/zh\-hk 302 https://zh.wikipedia.org/wiki
 #萌娘百科快速搜索
 ^https?:\/\/www\.google\.com\/search\?q=mn\+ 302 https://zh.moegirl.org.cn/index.php?search=
-^https?:\/\/www\.google\.com\/search\?q=mnbk 302 https://zh.moegirl.org.cn
+^https?:\/\/www\.google\.com\/search\?q=mnbk([^&]+).+ 302 https://zh.moegirl.org.cn
 #在apple music搜索
 ^https?:\/\/www\.google\.com\/search\?q=im\+ 302 https://music.apple.com/cn/search?term=
 #thb wiki快速搜索
