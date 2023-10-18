@@ -21,7 +21,7 @@
 #thb wiki快速搜索
 ^https?:\/\/www\.google\.com\/search\?q=thb\+ 302 https://thwiki.cc/index.php?search=
 #使用duckduckgo搜索
-^https?:\/\/www\.google\.com\/search\?q=ddg\+([^&]+).+ 302 https://duckduckgo.com/?q=$1
+^https?:\/\/www\.google\.com\/search\?q=ddg&.+ 302 https://duckduckgo.com/
 #萌娘百科繁中重定向简中
 ^https?:\/\/zh\.moegirl\.org\.cn\/zh\-hk 302 https://zh.moegirl.org.cn
 ^https?:\/\/zh\.moegirl\.org\.cn\/zh\-tw 302 https://zh.moegirl.org.cn
