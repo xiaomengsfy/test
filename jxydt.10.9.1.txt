@@ -1,6 +1,0 @@
-#https://55gy.cn/1117/
-[Mitm]
-hostname =vipapi.jxedt.com
-
-[Script]
-http-request ^https:\/\/vipapi\.jxedt\.com\/store\/(checkRights|batchCheckRights|checkRights?|popRealExamProcess|getUserRightsLabelSummary) script-path=https://raw.githubusercontent.com/xiaomengsfy/test/main/jxydt.js, timeout=10, tag=jxydt
