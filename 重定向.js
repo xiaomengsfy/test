@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         自用网页重定向
-// @version      0.1
+// @version      0.11
 // @updateURL    https://raw.githubusercontent.com/xiaomengsfy/test/refs/heads/main/%E9%87%8D%E5%AE%9A%E5%90%91.js
 // @downloadURL  https://raw.githubusercontent.com/xiaomengsfy/test/refs/heads/main/%E9%87%8D%E5%AE%9A%E5%90%91.js
 // @description  重定向部分网页方便日常使用
