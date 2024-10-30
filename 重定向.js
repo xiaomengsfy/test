@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         自用网页重定向
-// @version      0.11
+// @version      0.11.1
 // @updateURL    https://raw.githubusercontent.com/xiaomengsfy/test/refs/heads/main/%E9%87%8D%E5%AE%9A%E5%90%91.js
 // @downloadURL  https://raw.githubusercontent.com/xiaomengsfy/test/refs/heads/main/%E9%87%8D%E5%AE%9A%E5%90%91.js
 // @description  重定向部分网页方便日常使用
@@ -14,7 +14,10 @@
 // @include      *://zh.wikipedia.org/*
 // @run-at       document-start
 // ==/UserScript==
- 
+
+
+//document.location.href = document.location.href.replace(/http?:\/\/jm\.tt/, 'https://18comic.vip')
+
 document.location.href = document.location.href
   //稍后再看重定向
   .replace('list/watchlater?bvid=', 'video/')
@@ -99,4 +102,4 @@ document.location.href = document.location.href
   // Google 图片
   .replace(/https?:\/\/www\.google\.com\/search\?q=gi\+([^&]+).+/, 'https://www.google.com/search?&tbm=isch&q=$1')
   // 必应
-  .replace(/https?:\/\/www\.google\.com\/search\?q=by\+([^&]+).+/, 'https://www.bing.com/search?q=$1')
+  .replace(/https?:\/\/www\.google\.com\/search\?q=by\+([^&]+).+/, 'https://www.bing.com/search?q=$1');
