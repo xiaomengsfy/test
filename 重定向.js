@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         自用网页重定向
-// @version      0.2.1
+// @version      0.2.2
 // @updateURL    https://raw.githubusercontent.com/xiaomengsfy/test/refs/heads/main/%E9%87%8D%E5%AE%9A%E5%90%91.js
 // @downloadURL  https://raw.githubusercontent.com/xiaomengsfy/test/refs/heads/main/%E9%87%8D%E5%AE%9A%E5%90%91.js
 // @description  重定向部分网页方便日常使用
@@ -9,14 +9,18 @@
 // @match        *://acg.tv/*
 // @match        *://baike.baidu.hk/*
 // @match        *://*.google.com/search?q=*
-// @include      *://jm.tt/*
-// @include      *://18comic.vip/*
+// @match        *://jm.tt/*
+// @match        *://18comic.vip/*
 // @match        *://zh.moegirl.org.cn/*
 // @match        *://zh.wikipedia.org/*
 // @run-at       document-start
 // ==/UserScript==
 
-
+(function() {
+    'use strict';
+    var url = window.location.href;
+    window.location.href = url.replace('jm.tt', '18comic.vip');
+})();
 document.location.href = document.location.href.replace('jm.tt', '18comic.vip');
 
 document.location.href = document.location.href
