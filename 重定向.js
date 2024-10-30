@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         自用网页重定向
-// @version      0.11.2
+// @version      0.11.3
 // @updateURL    https://raw.githubusercontent.com/xiaomengsfy/test/refs/heads/main/%E9%87%8D%E5%AE%9A%E5%90%91.js
 // @downloadURL  https://raw.githubusercontent.com/xiaomengsfy/test/refs/heads/main/%E9%87%8D%E5%AE%9A%E5%90%91.js
 // @description  重定向部分网页方便日常使用
@@ -22,7 +22,7 @@ document.location.href = document.location.href
   //稍后再看重定向
   .replace('list/watchlater?bvid=', 'video/')
   //去除链接跟踪内容
-  .replace(/(*\.bilibili\.com\/video\/[^&]+).*/, '$1')
+  .replace(/(.*\.bilibili\.com\/video\/[^&]+).*/, '$1')
   //谷歌cn重定向
   .replace('google.cn', 'google.com')
   //b站sm号跳转niconico
