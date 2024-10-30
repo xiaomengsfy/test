@@ -1,17 +1,17 @@
 // ==UserScript==
 // @name         自用网页重定向
-// @version      0.11.3
+// @version      0.2
 // @updateURL    https://raw.githubusercontent.com/xiaomengsfy/test/refs/heads/main/%E9%87%8D%E5%AE%9A%E5%90%91.js
 // @downloadURL  https://raw.githubusercontent.com/xiaomengsfy/test/refs/heads/main/%E9%87%8D%E5%AE%9A%E5%90%91.js
 // @description  重定向部分网页方便日常使用
-// @include      *://*.bilibili.com/*
-// @include      *://*.google.cn/*
-// @include      *://acg.tv/*
-// @include      *://baike.baidu.hk/*
-// @include      *://*.google.com/search?q=*
-// @include      *://jm.tt*
-// @include      *://zh.moegirl.org.cn/*
-// @include      *://zh.wikipedia.org/*
+// @match        *://*.bilibili.com/*
+// @match        *://*.google.cn/*
+// @match        *://acg.tv/*
+// @match        *://baike.baidu.hk/*
+// @match        *://*.google.com/search?q=*
+// @match        *://jm.tt*
+// @match        *://zh.moegirl.org.cn/*
+// @match        *://zh.wikipedia.org/*
 // @run-at       document-start
 // ==/UserScript==
 
