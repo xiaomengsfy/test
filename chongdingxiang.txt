@@ -110,5 +110,7 @@
 
 ^https?:\/\/duckduckgo.com\/\?q=bili&.+ 302 https://www.bilibili.com
 
+^https:\/\/steamcommunity\.com\/(.+)\/?l=.+ 302 ^https:\/\/steamcommunity\.com\/$1
+
 [Mitm]
 hostname = 18comic.vip,www.google.cn,www.g.cn,acg.tv,*.baidu.hk,zh.wikipedia.org,jm.tt,www.google.com,zh.moegirl.org.cn,duckduckgo.com
