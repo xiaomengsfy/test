@@ -14,100 +14,90 @@
 ^https?:\/\/zh\.wikipedia\.org\/zh\-hant 302 https://zh.wikipedia.org/wiki
 ^https?:\/\/zh\.wikipedia\.org\/zh\-hk 302 https://zh.wikipedia.org/wiki
 #萌娘百科快速搜索
-^https?:\/\/www\.google\.com\/search\?q=mn\+ 302 https://zh.moegirl.org.cn/index.php?search=
-^https?:\/\/www\.google\.com\/search\?q=mnbk&.+ 302 https://zh.moegirl.org.cn
+^https?:\/\/duckduckgo\.com\/\?q=mn\+ 302 https://zh.moegirl.org.cn/index.php?search=
+^https?:\/\/duckduckgo\.com\/\?q=mnbk&.+ 302 https://zh.moegirl.org.cn
 #在apple music搜索
-^https?:\/\/www\.google\.com\/search\?q=im\+ 302 https://music.apple.com/cn/search?term=
+^https?:\/\/duckduckgo\.com\/\?q=im\+ 302 https://music.apple.com/cn/search?term=
 #thb wiki快速搜索
-^https?:\/\/www\.google\.com\/search\?q=thb\+ 302 https://thwiki.cc/index.php?search=
+^https?:\/\/duckduckgo\.com\/\?q=thb\+ 302 https://thwiki.cc/index.php?search=
 #使用duckduckgo搜索
-^https?:\/\/www\.google\.com\/search\?q=ddg&.+ 302 https://duckduckgo.com/
+^https?:\/\/duckduckgo\.com\/\?q=ddg&.+ 302 https://duckduckgo.com/
 #萌娘百科繁中重定向简中
 ^https?:\/\/zh\.moegirl\.org\.cn\/zh\-hk 302 https://zh.moegirl.org.cn
 ^https?:\/\/zh\.moegirl\.org\.cn\/zh\-tw 302 https://zh.moegirl.org.cn
 #pixiv快速搜索
-^https?:\/\/www\.google\.com\/search\?q=pixiv&.+ 302 https://www.pixiv.net
-^https?:\/\/www\.google\.com\/search\?q=pi\+([^&]+).+ 302 https://www.pixiv.net/tags/$1
-^https?:\/\/www\.google\.com\/search\?q=pu\+([^&]+).+ 302 https://www.pixiv.net/search_user.php?s_mode=s_usr&nick=$1
-^https?:\/\/www\.google\.com\/search\?q=pid\+([^&]+).+ 302 https://www.pixiv.net/artworks/$1
-^https?:\/\/www\.google\.com\/search\?q=pui\+([^&]+).+ 302 https://www.pixiv.net/users/$1
+^https?:\/\/duckduckgo\.com\/\?q=pixiv&.+ 302 https://www.pixiv.net
+^https?:\/\/duckduckgo\.com\/\?q=pi\+([^&]+).+ 302 https://www.pixiv.net/tags/$1
+^https?:\/\/duckduckgo\.com\/\?q=pu\+([^&]+).+ 302 https://www.pixiv.net/search_user.php?s_mode=s_usr&nick=$1
+^https?:\/\/duckduckgo\.com\/\?q=pid\+([^&]+).+ 302 https://www.pixiv.net/artworks/$1
+^https?:\/\/duckduckgo\.com\/\?q=pui\+([^&]+).+ 302 https://www.pixiv.net/users/$1
 #fanbox快速搜索
-^https?:\/\/www\.google\.com\/search\?q=fb\+ 302 https://www.fanbox.cc/search?type=creator&q=
+^https?:\/\/duckduckgo\.com\/\?q=fb\+ 302 https://www.fanbox.cc/search?type=creator&q=
 #jmtt快速搜索
-^https?:\/\/www\.google\.com\/search\?q=jm\+ 302 https://18comic.vip/search/photos?search_query=
+^https?:\/\/duckduckgo\.com\/\?q=jm\+ 302 https://18comic.vip/search/photos?search_query=
 #禁漫天堂快速访问
 ^http?:\/\/jm\.tt 302 https://18comic.vip
-#以下内容转载修改简化自墨鱼Safari超级搜索，便于chrome使用，需将默认搜索引擎改为google
 # yd  xxx (有道词典)
-^https?:\/\/www\.google\.com\/search\?q=yd\+([^&]+).+ 302 http://dict.youdao.com/search?q=$1
+^https?:\/\/duckduckgo\.com\/\?q=yd\+([^&]+).+ 302 http://dict.youdao.com/search?q=$1
 # trc xxx (Google 译至中)
-^https?:\/\/www\.google\.com\/search\?q=trc\+([^&]+).+ 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$1
+^https?:\/\/duckduckgo\.com\/\?q=trc\+([^&]+).+ 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$1
 # tre xxx (Google 译至英)
-^https?:\/\/www\.google\.com\/search\?q=tre\+([^&]+).+ 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=$1
+^https?:\/\/duckduckgo\.com\/\?q=tre\+([^&]+).+ 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=$1
 # trj xxx (Google 译至日)
-^https?:\/\/www\.google\.com\/search\?q=trj\+([^&]+).+ 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=ja&text=$1
+^https?:\/\/duckduckgo\.com\/\?q=trj\+([^&]+).+ 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=ja&text=$1
 # zh    xxx (知乎)
-^https?:\/\/www\.google\.com\/search\?q=zh\+([^&]+).+ 302 http://www.zhihu.com/search?q=$1
+^https?:\/\/duckduckgo\.com\/\?q=zh\+([^&]+).+ 302 http://www.zhihu.com/search?q=$1
 # wb    xxx (微博)
-^https?:\/\/www\.google\.com\/search\?q=wb\+([^&]+).+ 302 https://s.weibo.com/weibo/$1
+^https?:\/\/duckduckgo\.com\/\?q=wb\+([^&]+).+ 302 https://s.weibo.com/weibo/$1
 # wx    xxx (微信)
-^https?:\/\/www\.google\.com\/search\?q=wx\+([^&]+).+ 302 https://weixin.sogou.com/weixinwap?query=$1
+^https?:\/\/duckduckgo\.com\/\?q=wx\+([^&]+).+ 302 https://weixin.sogou.com/weixinwap?query=$1
 # tw    xxx (Twitter)
-^https?:\/\/www\.google\.com\/search\?q=tw\+([^&]+).+ 302 https://twitter.com/search?q=$1
-^https?:\/\/www\.google\.com\/search\?q=twitter&.+ 302 https://twitter.com
+^https?:\/\/duckduckgo\.com\/\?q=tw\+([^&]+).+ 302 https://twitter.com/search?q=$1
 # gh    xxx (GitHub)
-^https?:\/\/www\.google\.com\/search\?q=gh\+([^&]+).+ 302 https://github.com/search?q=$1
-^https?:\/\/www\.google\.com\/search\?q=github&.+ 302 https://github.com
+^https?:\/\/duckduckgo\.com\/\?q=gh\+([^&]+).+ 302 https://github.com/search?q=$1
 # zdm xxx (什么值得买)
-^https?:\/\/www\.google\.com\/search\?q=zdm\+([^&]+).+ 302 https://search.smzdm.com/?v=b&s=$1
+^https?:\/\/duckduckgo\.com\/\?q=zdm\+([^&]+).+ 302 https://search.smzdm.com/?v=b&s=$1
 # jd  xxx (京东)
-^https?:\/\/www\.google\.com\/search\?q=jd\+([^&]+).+ 302 https://so.m.jd.com/ware/search.action?keyword=$1
+^https?:\/\/duckduckgo\.com\/\?q=jd\+([^&]+).+ 302 https://so.m.jd.com/ware/search.action?keyword=$1
 # tb  xxx (淘宝)
-^https?:\/\/www\.google\.com\/search\?q=tb\+([^&]+).+ 302 https://s.taobao.com/h5?q=$1
+^https?:\/\/duckduckgo\.com\/\?q=tb\+([^&]+).+ 302 https://s.taobao.com/h5?q=$1
 # yt  xxx (YouTube)
-^https?:\/\/www\.google\.com\/search\?q=yt\+([^&]+).+ 302 https://www.youtube.com/results?search_query=$1
-^https?:\/\/www\.google\.com\/search\?q=ytb&.+ 302 https://www.youtube.com
+^https?:\/\/duckduckgo\.com\/\?q=yt\+([^&]+).+ 302 https://www.youtube.com/results?search_query=$1
 # bli xxx (哔哩哔哩)
-^https?:\/\/www\.google\.com\/search\?q=bli\+([^&]+).+ 302 https://www.bilibili.com/search?keyword=$1
-^https?:\/\/www\.google\.com\/search\?q=bili&.+ 302 https://www.bilibili.com
+^https?:\/\/duckduckgo\.com\/\?q=bli\+([^&]+).+ 302 https://www.bilibili.com/search?keyword=$1
 # ac  xxx (Acfun)
-^https?:\/\/www\.google\.com\/search\?q=ac\+([^&]+).+ 302 https://www.acfun.cn/search?keyword=$1
+^https?:\/\/duckduckgo\.com\/\?q=ac\+([^&]+).+ 302 https://www.acfun.cn/search?keyword=$1
 # ys  xxx (茶杯狐cupfox)
-^https?:\/\/www\.google\.com\/search\?q=ys\+([^&]+).+ 302 https://cupfox.app/search?key=$1
+^https?:\/\/duckduckgo\.com\/\?q=ys\+([^&]+).+ 302 https://cupfox.app/search?key=$1
 # bd  xxx (百度搜索)
-^https?:\/\/www\.google\.com\/search\?q=bd\+([^&]+).+ 302 https://www.baidu.com/s?wd=$1
+^https?:\/\/duckduckgo\.com\/\?q=bd\+([^&]+).+ 302 https://www.baidu.com/s?wd=$1
 # wk  xxx (维基搜索)
-^https?:\/\/www\.google\.com\/search\?q=wk\+([^&]+).+ 302 https://zh.wikipedia.org/wiki/$1
+^https?:\/\/duckduckgo\.com\/\?q=wk\+([^&]+).+ 302 https://zh.wikipedia.org/wiki/$1
 # wz  xxx (无追搜索)
-^https?:\/\/www\.google\.com\/search\?q=wz\+([^&]+).+ 302 https://www.wuzhuiso.com/s?q=$1
+^https?:\/\/duckduckgo\.com\/\?q=wz\+([^&]+).+ 302 https://www.wuzhuiso.com/s?q=$1
 # yh  xxx (油猴搜索)
-^https?:\/\/www\.google\.com\/search\?q=yh\+([^&]+).+ 302 https://greasyfork.org/zh-CN/scripts?q=$1
+^https?:\/\/duckduckgo\.com\/\?q=yh\+([^&]+).+ 302 https://greasyfork.org/zh-CN/scripts?q=$1
 # gi  xxx (Google 图片)
-^https?:\/\/www\.google\.com\/search\?q=gi\+([^&]+).+ 302 https://www.google.com/search?&tbm=isch&q=$1
+^https?:\/\/duckduckgo\.com\/\?q=gi\+([^&]+).+ 302 https://www.google.com/search?&tbm=isch&q=$1
 # by  xxx (必应)
-^https?:\/\/www\.google\.com\/search\?q=by\+([^&]+).+ 302 https://www.bing.com/search?q=$1
+^https?:\/\/duckduckgo\.com\/\?q=by\+([^&]+).+ 302 https://www.bing.com/search?q=$1
 # cn  (切换至中国区)
-^https?:\/\/www\.google\.com\/search\?q=cn&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143465&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=cn&urlDesc= 302
+^https?:\/\/duckduckgo\.com\/\?q=cn&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143465&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=cn&urlDesc= 302
 # hk  (切换至香港区)
-^https?:\/\/www\.google\.com\/search\?q=hk&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143463&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=hk&urlDesc= 302
+^https?:\/\/duckduckgo\.com\/\?q=hk&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143463&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=hk&urlDesc= 302
 # tw  (切换至台湾区)
-^https?:\/\/www\.google\.com\/search\?q=tw&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143470&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tw&urlDesc= 302
+^https?:\/\/duckduckgo\.com\/\?q=tw&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143470&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tw&urlDesc= 302
 # us  (切换至美国区)
-^https?:\/\/www\.google\.com\/search\?q=us&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143441&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=us&urlDesc= 302
+^https?:\/\/duckduckgo\.com\/\?q=us&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143441&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=us&urlDesc= 302
 # jp  (切换至日本区)
-^https?:\/\/www\.google\.com\/search\?q=jp&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143462&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=jp&urlDesc= 302
+^https?:\/\/duckduckgo\.com\/\?q=jp&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143462&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=jp&urlDesc= 302
 
 #safari快速访问部分网站
 ^https?:\/\/duckduckgo.com\/\?q=mnbk&.+ 302 https://zh.moegirl.org.cn
-
 ^https?:\/\/duckduckgo.com\/\?q=pixiv&.+ 302 https://www.pixiv.net
-
 ^https?:\/\/duckduckgo.com\/\?q=twitter&.+ 302 https://twitter.com
-
 ^https?:\/\/duckduckgo.com\/\?q=github&.+ 302 https://github.com
-
 ^https?:\/\/duckduckgo.com\/\?q=ytb&.+ 302 https://www.youtube.com
-
 ^https?:\/\/duckduckgo.com\/\?q=bili&.+ 302 https://www.bilibili.com
 
 [Mitm]
