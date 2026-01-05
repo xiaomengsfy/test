@@ -3,6 +3,8 @@
 ^https?://(www\.)?g\.cn 302 https://www.google.com
 ^https?://(www\.)?google\.cn 302 https://www.google.com
 ^https?://(www\.)?google\.cn/search 302 https://www.google.com/search
+#百度百科重定向至正确访问
+^https?://baike\.baidu\.comitem 302 https://baike.baidu.com/item
 #b站sm号跳转niconico重定向
 ^https?:\/\/acg\.tv\/ 302 https://www.nicovideo.jp/watch/
 #b站稍后再看重定向至普通播放页面
