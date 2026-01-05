@@ -101,4 +101,4 @@
 ^https?:\/\/duckduckgo.com\/\?q=bili&.+ 302 https://www.bilibili.com
 
 [Mitm]
-hostname = 18comic.vip,www.google.cn,www.g.cn,acg.tv,*.baidu.hk,zh.wikipedia.org,jm.tt,zh.moegirl.org.cn,duckduckgo.com,baike.baidu.comitem
+hostname = 18comic.vip,www.google.cn,www.g.cn,acg.tv,*.baidu.hk,zh.wikipedia.org,jm.tt,zh.moegirl.org.cn,duckduckgo.com
