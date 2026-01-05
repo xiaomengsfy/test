@@ -3,7 +3,7 @@
 ^https?://(www\.)?g\.cn 302 https://www.google.com
 ^https?://(www\.)?google\.cn 302 https://www.google.com
 ^https?://(www\.)?google\.cn/search 302 https://www.google.com/search
-#b站sm号跳转niconico重定向aaa
+#b站sm号跳转niconico重定向
 ^https?:\/\/acg\.tv\/ 302 https://www.nicovideo.jp/watch/
 #b站稍后再看重定向至普通播放页面
 ^https?:\/\/www\.bilibili\.com\/list\/watchlater\?bvid= 302 https://www.bilibili.com/video/
