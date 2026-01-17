@@ -70,7 +70,7 @@
 # ys  xxx (茶杯狐cupfox)
 ^https?:\/\/duckduckgo\.com\/\?q=ys\+([^&]+).+ 302 https://cupfox.app/search?key=$1
 # bd  xxx (百度搜索)
-^https?:\/\/duckduckgo\.com\/\?q=bd\+([^&]+).+ 302 https://www.baidu.com/s?wd=$1
+^https?:\/\/duckduckgo\.com\/\?q=bd\+([^&]+).+ 302 https://www.baidu.com/s?word=$1
 # wk  xxx (维基搜索)
 ^https?:\/\/duckduckgo\.com\/\?q=wk\+([^&]+).+ 302 https://zh.wikipedia.org/wiki/$1
 # wz  xxx (无追搜索)
