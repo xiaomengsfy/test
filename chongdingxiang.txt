@@ -46,7 +46,7 @@
 # trj xxx (Google 译至日)
 ^https?:\/\/duckduckgo\.com\/\?q=trj\+([^&]+).+ 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=ja&text=$1
 # zh    xxx (知乎)
-^https?:\/\/duckduckgo\.com\/\?q=zh\+([^&]+).+ 302 http://www.zhihu.com/search?q=$1
+#^https?:\/\/duckduckgo\.com\/\?q=zh\+([^&]+).+ 302 http://www.zhihu.com/search?q=$1
 # wb    xxx (微博)
 ^https?:\/\/duckduckgo\.com\/\?q=wb\+([^&]+).+ 302 https://s.weibo.com/weibo/$1
 # wx    xxx (微信)
