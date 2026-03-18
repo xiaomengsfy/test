@@ -99,6 +99,8 @@
 ^https?:\/\/duckduckgo.com\/\?q=github&.+ 302 https://github.com
 ^https?:\/\/duckduckgo.com\/\?q=ytb&.+ 302 https://www.youtube.com
 ^https?:\/\/duckduckgo.com\/\?q=bili&.+ 302 https://www.bilibili.com
+#兜底谷歌搜索
+^https:\/\/duckduckgo.com\/\?q=([^&]+).+ 302 https://www.google.com/search?q=$1
 
 [Mitm]
 hostname = 18comic.vip,www.google.cn,www.g.cn,acg.tv,*.baidu.hk,zh.wikipedia.org,jm.tt,zh.moegirl.org.cn,duckduckgo.com
