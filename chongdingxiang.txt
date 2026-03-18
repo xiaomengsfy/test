@@ -52,7 +52,7 @@
 # wx    xxx (微信)
 ^https?:\/\/duckduckgo\.com\/\?q=wx\+([^&]+).+ 302 https://weixin.sogou.com/weixinwap?query=$1
 # tw    xxx (Twitter)
-^https?:\/\/duckduckgo\.com\/\?q=tw\+([^&]+).+ 302 https://twitter.com/search?q=$1
+#^https?:\/\/duckduckgo\.com\/\?q=tw\+([^&]+).+ 302 https://twitter.com/search?q=$1
 # gh    xxx (GitHub)
 ^https?:\/\/duckduckgo\.com\/\?q=gh\+([^&]+).+ 302 https://github.com/search?q=$1
 # zdm xxx (什么值得买)
@@ -68,17 +68,17 @@
 # ac  xxx (Acfun)
 ^https?:\/\/duckduckgo\.com\/\?q=ac\+([^&]+).+ 302 https://www.acfun.cn/search?keyword=$1
 # ys  xxx (茶杯狐cupfox)
-^https?:\/\/duckduckgo\.com\/\?q=ys\+([^&]+).+ 302 https://cupfox.app/search?key=$1
+#^https?:\/\/duckduckgo\.com\/\?q=ys\+([^&]+).+ 302 https://cupfox.app/search?key=$1
 # bd  xxx (百度搜索)
 ^https?:\/\/duckduckgo\.com\/\?q=bd\+([^&]+).+ 302 https://www.baidu.com/s?word=$1
 # wk  xxx (维基搜索)
 ^https?:\/\/duckduckgo\.com\/\?q=wk\+([^&]+).+ 302 https://zh.wikipedia.org/wiki/$1
 # wz  xxx (无追搜索)
-^https?:\/\/duckduckgo\.com\/\?q=wz\+([^&]+).+ 302 https://www.wuzhuiso.com/s?q=$1
+#^https?:\/\/duckduckgo\.com\/\?q=wz\+([^&]+).+ 302 https://www.wuzhuiso.com/s?q=$1
 # yh  xxx (油猴搜索)
-^https?:\/\/duckduckgo\.com\/\?q=yh\+([^&]+).+ 302 https://greasyfork.org/zh-CN/scripts?q=$1
+#^https?:\/\/duckduckgo\.com\/\?q=yh\+([^&]+).+ 302 https://greasyfork.org/zh-CN/scripts?q=$1
 # gi  xxx (Google 图片)
-^https?:\/\/duckduckgo\.com\/\?q=gi\+([^&]+).+ 302 https://www.google.com/search?&tbm=isch&q=$1
+#^https?:\/\/duckduckgo\.com\/\?q=gi\+([^&]+).+ 302 https://www.google.com/search?&tbm=isch&q=$1
 # by  xxx (必应)
 ^https?:\/\/duckduckgo\.com\/\?q=by\+([^&]+).+ 302 https://www.bing.com/search?q=$1
 # cn  (切换至中国区)
