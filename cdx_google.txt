@@ -1,2 +1,6 @@
-ddg转谷歌
+[Rewrite]
+#ddg转谷歌
 ^https:\/\/duckduckgo.com\/\?q=([^&]+).+ 302 https://www.google.com/search?q=$1
+
+[Mitm]
+hostname = duckduckgo.com
